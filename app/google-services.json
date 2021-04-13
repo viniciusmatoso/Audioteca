@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "136443120350",
+    "project_id": "audiotecaapp",
+    "storage_bucket": "audiotecaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136443120350:android:add053f844328a7ba3904f",
+        "android_client_info": {
+          "package_name": "com.br.audiotecacopia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136443120350-j30nljnivml5hqrfb8j5ni2e45040n5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrVNaJttTovcQLUNEwV3c-wtS_EWQ8r-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136443120350-j30nljnivml5hqrfb8j5ni2e45040n5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.EditarPerfilActivity">
+
+    <include layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgPerfil"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/perfil"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"/>
+
+    <EditText
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/editNome"
+        android:background="@drawable/edit_custom"
+        android:hint="Nome"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/editIdade"
+        android:background="@drawable/edit_custom"
+        android:hint="Idade"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/editGenero"
+        android:background="@drawable/edit_custom"
+        android:hint="Gênero de Música"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:text="Sexo"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_marginLeft="48dp"
+            android:text="Masculino"
+            android:textSize="20sp"
+            android:id="@+id/rbMasc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:layout_marginLeft="64dp"
+            android:text="Feminino"
+            android:textSize="20sp"
+            android:id="@+id/rbFem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:onClick="salvarDados"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:textColor="@color/white"
+        android:text="Salvar"
+        android:backgroundTint="@color/azul"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+</LinearLayout>
